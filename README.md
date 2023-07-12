@@ -1,14 +1,11 @@
 # MusicApp
 
-README.txt
-
-Collaboration with Keira Ryan
-Email: keiryan@chapman.edu
+Collaboration with keiryan@chapman.edu
 
 CLASS OVERVIEW:
 
 Content.java: 
-- Content.java is an abstract class that holds member variables for the title, artist, and number of streams associated with the track (song or podcast), as well as the play method which increments number of streams by one.
+- Content.java is an abstract class that holds member variables for the title, artist, and number of streams associated with the track (song or podcast), as well as the play method which increments the number of streams by one.
 - Member variable of static ArrayList for allContent to hold all of the content collections that the user has. 
 - Implements the CompareTo interface and overrides the compareTo() method to organize songs by number of streams.
 - Content.java is a parent class to Podcast.java and Song.java.
